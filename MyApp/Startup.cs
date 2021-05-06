@@ -23,7 +23,6 @@ namespace MyApp
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlite("Data Source=app.sqlite");
-                //options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
                 options.LogTo(Console.WriteLine);
             });
 
