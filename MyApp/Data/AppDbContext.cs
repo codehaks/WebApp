@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyApp.Models;
 
 namespace MyApp.Data
 {
@@ -12,6 +13,8 @@ namespace MyApp.Data
         {
             base.OnModelCreating(builder);
         }
+
+        public DbSet<Book> Books { get; set; }
 
 
     }
