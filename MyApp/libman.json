@@ -9,10 +9,6 @@
     {
       "library": "twitter-bootstrap@4.5.3",
       "destination": "wwwroot/lib/bootstrap/"
-    },
-    {
-      "library": "vue@2.5.17",
-      "destination": "wwwroot/lib/vue/"
     }
   ]
 }
